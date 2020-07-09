@@ -1,5 +1,4 @@
 
-
 /*-- star common-area--*/
 body{
     margin: 0;
@@ -10,6 +9,7 @@ body{
     padding: 80px 0;
 }
 /*-- end common-area--*/
+
 /*-- star header-top--*/
 .header-top{
     background-color: #F0FFF0;;
@@ -23,13 +23,15 @@ body{
     background-color: #F0FFF0!important;
 }
 /*-- end header-top--*/
+
 /*-- star header-area--*/
 .header-area{
     background-color:  #F0FFF0;
 }
 .header-area img{    
-    width: 554px;
+    width: 390px;
     height: 346px;
+    padding:20px;
     
 }
 .header-body{
@@ -37,10 +39,12 @@ body{
     border: none;
 }
 /*-- end header-area--*/
+
 /*-- star books-area--*/
 .single-books{
-    width: 270px;
-    height: 270px;
+    width: 250px;
+    height: 260px;
+    padding: 20px;
     background-color:  #F8FFFB;
     border-radius: 10px;
     transition: .4s;
@@ -55,26 +59,88 @@ body{
     height: 82px;
 }
 /*-- end books-area--*/
+
 /* start course */
 .course-icon{
     height: 20px;
     width: 20px;
 }
 /*end course */
+
 /*-- star testimonial-area--*/ 
 .Testimonial-area{
     background-color: #E5E5E5;
 }
 .test-article p{
-
-    color: #000000;;
-    padding:20px ;
+    color: #000000;
+    padding:20px ;   
+    transition: .5s;
+}
+.test-article p:hover{
+    background-color: white;
+    box-shadow: 0 10px 40px #908a8a;
 }
 .test-img img{    
     width: 120px;
-    height: 120px;    
+    height: 120px; 
+    transition: .2s; 
+}
+.test-img img:hover{
+    background-color: white;
+    box-shadow: 0 10px 40px #908a8a;
 }
 /*-- end testimonial-area--*/
+
+/*-- star team-area--*/  
+.single-team{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color:  #F8FFFB;
+    border-radius: 10px;
+    transition: .5s;
+}
+.single-team:hover{
+    background-color: white;
+    box-shadow: 0 10px 40px #908a8a;
+}
+
+.single-team img{
+    width: 150px;
+    height: 150px;
+}
+
+/*-- end team-area--*/
+
+/*-- star blog-area--*/  
+.card{    
+    border-radius: 10px;
+    transition: .5s;
+}
+.card:hover{
+    background-color: white;
+    box-shadow: 0 10px 40px #908a8a;
+}
+/*-- end blog-area--*/
+
+/*-- star contact-area--*/  
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    }
+.contact-form input[type="submit"] {
+    background-color:#28a745;
+    color: #fff;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    
+.contact-form iframe {
+    width: 100%;
+    height: 270px;
+    }
+ /*-- end contact-area--*/ 
+  
 /*-- star footer-area--*/  
 .footer-area{  
     padding: 50px 30px; 
